@@ -1,0 +1,90 @@
+body {
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f7f4;
+    color: #333;
+}
+
+header {
+    background-color: #f8f7f4;
+    color: #333;
+    padding: 2rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+nav {
+    background-color: #fff;
+    padding: 1rem 0;
+    border-bottom: 1px solid #ccc;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #eee;
+    border-radius: 4px;
+}
+
+section {
+    padding: 2rem 1rem;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    color: #333;
+    margin: 1rem 0;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 1rem 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
