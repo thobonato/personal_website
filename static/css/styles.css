@@ -63,13 +63,28 @@ li {
 }
 
 a {
-    color: #007acc;
-    text-decoration: none;
-    border-bottom: 1px dotted;
+    color: #242424;
+  text-decoration: none;
+  background:
+    linear-gradient(
+      to right,
+      rgba(100, 200, 200, 1),
+      rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+  );
+  background-size: 100% 2px, 0 2px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
 }
 
 a:hover {
-    border-bottom: 1px solid;
+  background-size: 0 3px, 100% 3px;
 }
 
 footer {
