@@ -31,3 +31,15 @@ document.querySelectorAll("[data-wo]").forEach((element) => {
         section.scrollIntoView({ behavior: "smooth" });
     });
 });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    setTimeout(function() {
+        const splashScreen = document.getElementById("splash-screen");
+        splashScreen.style.opacity = "0";
+        splashScreen.addEventListener("transitionend", function() {
+            splashScreen.style.display = "none";
+            document.getElementById("content").style.display = "block";
+        });
+    }, 1500); // Adjust the time (3000ms = 3s) as needed
+});
