@@ -43,3 +43,34 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }, 1500); // Adjust the time (3000ms = 3s) as needed
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const workList = document.querySelector(".work-list");
+
+    // Enable touch scrolling
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+
+    workList.addEventListener('mousedown', (e) => {
+        isDown = true;
+        startX = e.pageX - workList.offsetLeft;
+        scrollLeft = workList.scrollLeft;
+    });
+
+    workList.addEventListener('mouseleave', () => {
+        isDown = false;
+    });
+
+    workList.addEventListener('mouseup', () => {
+        isDown = false;
+    });
+
+    workList.addEventListener('mousemove', (e) => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - workList.offsetLeft;
+        const walk = (x - startX) * 2;
+        workList.scrollLeft = scrollLeft - walk;
+    });
+});

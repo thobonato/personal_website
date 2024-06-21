@@ -9,6 +9,7 @@ body {
 /* splash */
 
 .splash-name {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: 3rem;
     font-weight: 700;
     color: #f8f7f4;
@@ -139,3 +140,57 @@ footer {
     width: 24px;
     height: 24px;
 }
+
+/* work list */
+.work-container {
+    max-width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.work-list {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 20px 0;
+    margin: 0;
+    gap: 20px;
+}
+
+
+.work-list::-webkit-scrollbar {
+    height: 8px;
+}
+
+.work-list::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+
+.work-list li {
+    flex: 0 0 auto;
+    width: 280px;
+    scroll-snap-align: start;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.work-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.work-list li h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.work-list li p {
+    color: #666;
+    margin: 5px 0;
+}
+
+/* work list */
