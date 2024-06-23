@@ -119,7 +119,7 @@ a {
 }
 
 a:hover {
-  background-size: 0 3px, 100% 3px;
+  background-size: 0 2px, 100% 2px;
 }
 
 footer {
