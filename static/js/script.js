@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Enable touch scrolling
     let isDown = false;
-    let startX;
+    let startX;a
     let scrollLeft;
 
     workList.addEventListener('mousedown', (e) => {

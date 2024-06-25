@@ -6,8 +6,8 @@ body {
     background-color: #f8f7f4;
     color: #242424;
 }
-/* splash */
 
+/* splash */
 .splash-name {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: 3rem;
@@ -33,12 +33,8 @@ body {
 }
 
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 /* splash end */
 
@@ -99,27 +95,18 @@ li {
 
 a {
     color: #242424;
-  text-decoration: none;
-  background:
-    linear-gradient(
-      to right,
-      rgba(100, 200, 200, 1),
-      rgba(100, 200, 200, 1)
-    ),
-    linear-gradient(
-      to right,
-      rgba(255, 0, 0, 1),
-      rgba(255, 0, 180, 1),
-      rgba(0, 100, 200, 1)
-  );
-  background-size: 100% 2px, 0 2px;
-  background-position: 100% 100%, 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 400ms;
+    text-decoration: none;
+    background:
+        linear-gradient(to right, rgba(100, 200, 200, 1), rgba(100, 200, 200, 1)),
+        linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
+    background-size: 100% 2px, 0 2px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
 }
 
 a:hover {
-  background-size: 0 2px, 100% 2px;
+    background-size: 0 2px, 100% 2px;
 }
 
 footer {
@@ -165,8 +152,7 @@ footer {
     background-color: transparent;
 }
 
-
-.work-list li {
+.work-item {
     flex: 0 0 auto;
     width: 280px;
     scroll-snap-align: start;
@@ -177,19 +163,36 @@ footer {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.work-list li:hover {
+.work-item:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 
-.work-list li h3 {
-    margin-top: 0;
-    color: #333;
+.work-item-content {
+    display: flex;
+    flex-direction: column;
 }
 
-.work-list li p {
+.company-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.company-logo {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    margin-right: 8px;
+}
+
+.company-name {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.job-title, .job-period {
+    margin: 0;
+    font-size: 0.9rem;
     color: #666;
-    margin: 5px 0;
 }
-
-/* work list */
