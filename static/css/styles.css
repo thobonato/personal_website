@@ -170,20 +170,26 @@ footer {
 
 .work-item-content {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .company-header {
     display: flex;
     align-items: center;
-    margin-bottom: 8px;
+    justify-content: space-between;
+}
+
+.text-content {
+    flex: 1;
+    margin-right: 15px; /* Space between text and logo */
 }
 
 .company-logo {
-    min-height: 24px;
-    min-width: 24px;
-    max-height: 32px;
-    max-width: 48px;
+    min-height: 48px;
+    min-width: 48px;
+    max-height: 64px;
+    max-width: 96px;
     width: auto;
     height: auto;
     object-fit: contain;
