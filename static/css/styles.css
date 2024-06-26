@@ -180,8 +180,9 @@ footer {
 }
 
 .company-logo {
-    width: 32px;
+    min-height: 1rem;
     height: 32px;
+    width: auto;
     object-fit: contain;
     margin-right: 8px;
 }
