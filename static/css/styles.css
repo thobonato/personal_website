@@ -174,12 +174,6 @@ footer {
     align-items: center;
 }
 
-.company-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .text-content {
     flex: 1;
     margin-right: 15px; /* Space between text and logo */
