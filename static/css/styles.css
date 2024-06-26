@@ -130,16 +130,18 @@ footer {
 
 /* work list */
 .work-container {
-    max-width: 100%;
-    overflow: hidden;
-    padding: 20px 0;
+    /* max-width: 105%; */
+    padding: 20px;
+    margin-left: -20px; /* Compensate for the added padding */
+    margin-right: -20px; /* Compensate for the added padding */
+    overflow: visible;
 }
 
 .work-list {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    padding: 20px 0;
+    padding: 20px 0 20px 20px; /* Add left padding */
     margin: 0;
     gap: 20px;
 }
@@ -161,6 +163,7 @@ footer {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     padding: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-left: 2px;
 }
 
 .work-item:hover {
