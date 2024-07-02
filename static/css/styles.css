@@ -109,6 +109,10 @@ a:hover {
     background-size: 0 2px, 100% 2px;
 }
 
+a.work-item-content {
+    background: transparent;
+}
+
 footer {
     max-width: 800px;
     margin: 2rem auto;
