@@ -24,7 +24,7 @@ const WorkSection = ({ experiences }) => {
 
   return (
     <div className="max-w-4xl mx-auto pt-6 sm:pt-2">
-        <h2 className="text-xl sm:text-2xl font-semibold mb-4">work experience</h2>
+        <h2 className="text-xl sm:text-2xl font-semibold mb-4 sm:mb-0">work experience</h2>
         {experiences.map((exp, index) => (
         <div key={index} className="mb-2 h-auto sm:h-14 bg-gray-50 rounded-lg shadow-md overflow-hidden 
                                     transition duration-300 ease-in-out transform hover:scale-[1.01]">
