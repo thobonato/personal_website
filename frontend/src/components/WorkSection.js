@@ -27,9 +27,10 @@ const WorkSection = ({ experiences }) => {
 
   return (
     <div className="max-w-4xl mx-auto pt-6">
-        <h2 className="text-2xl font-semibold mb-4">Work Experience</h2>
+        <h2 className="text-2xl font-semibold mb-4">work experience</h2>
         {experiences.map((exp, index) => (
-        <div key={index} className="mb-2 h-14 bg-gray-50 rounded-lg shadow-md overflow-hidden">
+        <div key={index} className="mb-2 h-14 bg-gray-50 rounded-lg shadow-md overflow-hidden 
+                                    transition duration-300 ease-in-out transform hover:scale-[1.01]">
             <div className="flex items-center justify-between h-full px-4 w-full">
             <div className="flex items-center flex-grow">
                 <img 

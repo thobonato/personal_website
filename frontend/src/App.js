@@ -23,6 +23,11 @@ function App() {
           <img src={logo} className="App-logo" alt="logo" />
         </header> */}
       </div>
+      <footer className="pb-6 mt-auto">
+        <div className="text-[10px] text-center">
+          © 2024 Thomaz Bonato.
+        </div>
+      </footer>
     </div>
   );
 }

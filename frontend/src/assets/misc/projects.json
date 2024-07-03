@@ -4,6 +4,7 @@
         "name": "Azalea",
         "isAwarded": true,
         "award": "1st Place",
+        "awardColor" : "amber",
         "logo": "azalea.png",
         "link": "https://devpost.com/software/azalea"
       },
@@ -11,13 +12,15 @@
         "name": "Clevr LMS",
         "isAwarded": true,
         "award": "700+ users",
+        "awardColor" : "blue",
         "logo": "clevr.png",
         "link": "https://github.com/Clevr-LMS"
       },
       {
         "name": "LSTM Algo",
-        "isAwarded": false,
+        "isAwarded": true,
         "award": "Discontinued",
+        "awardColor" : "gray",
         "logo": "trading.svg",
         "link": ""
       }
