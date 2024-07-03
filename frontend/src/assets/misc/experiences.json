@@ -1,0 +1,46 @@
+{
+    "experiences": [
+      {
+        "company": "Sage AI",
+        "title": "Co-Founder",
+        "startDate": "Dec 2023",
+        "endDate": "Present",
+        "logo": "sage-ai.png"
+      },
+      {
+        "company": "USC",
+        "title": "AI Research",
+        "startDate": "Dec 2023",
+        "endDate": "May 2024",
+        "logo": "usc.png"
+      },
+      {
+        "company": "Hubtas",
+        "title": "Tech Consultant",
+        "startDate": "Q4 2023",
+        "endDate": "",
+        "logo": "hubtas.png"
+      },
+      {
+        "company": "The Plug Drink",
+        "title": "GTM Consultant",
+        "startDate": "Q4 2023",
+        "endDate": "",
+        "logo": "theplug.png"
+      },
+      {
+        "company": "Clevr LMS",
+        "title": "Co-Founder",
+        "startDate": "2019",
+        "endDate": "2023",
+        "logo": "clevr.png"
+      },
+      {
+        "company": "HyIQ Basketball",
+        "title": "Apps Developer",
+        "startDate": "June 2021",
+        "endDate": "Aug 2021",
+        "logo": "hyiq.png"
+      }
+    ]
+  }
