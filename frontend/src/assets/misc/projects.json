@@ -9,10 +9,17 @@
       },
       {
         "name": "Clevr LMS",
-        "isAwarded": false,
-        "award": "",
+        "isAwarded": true,
+        "award": "700+ users",
         "logo": "clevr.png",
         "link": "https://github.com/Clevr-LMS"
+      },
+      {
+        "name": "LSTM Algo",
+        "isAwarded": false,
+        "award": "Discontinued",
+        "logo": "trading.svg",
+        "link": ""
       }
     ]
   }
