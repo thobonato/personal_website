@@ -1,0 +1,18 @@
+{
+    "projects": [
+      {
+        "name": "Azalea",
+        "isAwarded": true,
+        "award": "1st Place",
+        "logo": "azalea.png",
+        "link": "https://devpost.com/software/azalea"
+      },
+      {
+        "name": "Clevr LMS",
+        "isAwarded": false,
+        "award": "",
+        "logo": "clevr.png",
+        "link": "https://github.com/Clevr-LMS"
+      }
+    ]
+  }

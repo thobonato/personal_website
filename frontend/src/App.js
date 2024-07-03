@@ -1,5 +1,5 @@
 // assets
-import logo from "./assets/images/2tb.png";
+// import logo from "./assets/images/2tb.png";
 import experiencesData from "./assets/misc/experiences.json";
 
 // components
@@ -16,9 +16,9 @@ function App() {
         <Header></Header>
         <Description> </Description>
         <WorkSection experiences={experiencesData.experiences} />
-        <header className="App-header">
+        {/* <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-        </header>
+        </header> */}
       </div>
     </div>
   );

@@ -1,6 +1,13 @@
 {
     "experiences": [
       {
+        "company": "Canaria",
+        "title": "NLP Intern",
+        "startDate": "July 2024",
+        "endDate": "Present",
+        "logo": "canaria.jpeg"
+      },
+      {
         "company": "Sage AI",
         "title": "Co-Founder",
         "startDate": "Dec 2023",
@@ -12,31 +19,32 @@
         "title": "AI Research",
         "startDate": "Dec 2023",
         "endDate": "May 2024",
-        "logo": "usc.png"
+        "logo": "usc.jpeg"
       },
       {
         "company": "Hubtas",
         "title": "Tech Consultant",
         "startDate": "Q4 2023",
         "endDate": "",
-        "logo": "hubtas.png"
+        "logo": "hubtas.jpeg"
       },
       {
         "company": "The Plug Drink",
         "title": "GTM Consultant",
         "startDate": "Q4 2023",
         "endDate": "",
-        "logo": "theplug.png"
+        "logo": "theplug.jpeg"
       },
       {
-        "company": "Clevr LMS",
-        "title": "Co-Founder",
-        "startDate": "2019",
-        "endDate": "2023",
-        "logo": "clevr.png"
+        "company": "Claire's Place Foundation",
+        "title": "Data Analyst",
+        "startDate": "Dec 2023",
+        "endDate": "",
+        "logo": "claires-logo.png",
+        "link": "https://clairesplacefoundation.org/"
       },
       {
-        "company": "HyIQ Basketball",
+        "company": "HyIQ",
         "title": "Apps Developer",
         "startDate": "June 2021",
         "endDate": "Aug 2021",

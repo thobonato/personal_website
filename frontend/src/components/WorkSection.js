@@ -3,10 +3,11 @@ import Sage from '../assets/images/sage-ai.png';
 import Azalea from '../assets/images/azalea.png';
 import Clevr from '../assets/images/clevr.png';
 import HyIQ from '../assets/images/hyiq.png'; 
-import ThePlug from '../assets/images/theplug.png'; 
-import Hubtas from '../assets/images/hubtas.png'; 
-import USC from '../assets/images/usc.png'; 
+import ThePlug from '../assets/images/theplug.jpeg'; 
+import Hubtas from '../assets/images/hubtas.jpeg'; 
+import USC from '../assets/images/usc.jpeg'; 
 import ClairesPlace from '../assets/images/claires-logo.png'; 
+import Canaria from '../assets/images/canaria.jpeg'; 
 
 
 const WorkSection = ({ experiences }) => {
@@ -16,10 +17,11 @@ const WorkSection = ({ experiences }) => {
       'azalea.png': Azalea,
       'clevr.png': Clevr,
       'hyiq.png': HyIQ,
-      'theplug.png': ThePlug,
-      'hubtas.png': Hubtas,
-      'usc.png': USC,
+      'theplug.jpeg': ThePlug,
+      'hubtas.jpeg': Hubtas,
+      'usc.jpeg': USC,
       'claires-logo.png': ClairesPlace,
+      'canaria.jpeg': Canaria,
         // add logos here
     };
 
@@ -33,7 +35,7 @@ const WorkSection = ({ experiences }) => {
                 <img 
                 src={logos[exp.logo]} 
                 alt={`${exp.company} logo`} 
-                className="w-8 h-auto object-contain"
+                className="w-8 h-auto object-contain rounded shadow-md"
                 />
                 <p className="text-sm text-gray-800 ml-3">
                 <span className="font-semibold">{exp.title}</span>
