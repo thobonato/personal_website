@@ -22,7 +22,7 @@
         "startDate": "Dec 2023",
         "endDate": "May 2024",
         "logo": "usc.jpeg",
-        "link": ""
+        "link": "https://www.marshall.usc.edu/personnel/kimon-drakopoulos"
       },
       {
         "company": "Hubtas",
@@ -30,7 +30,7 @@
         "startDate": "Q4 2023",
         "endDate": "",
         "logo": "hubtas.jpeg",
-        "link": ""
+        "link": "https://hubtas.com/"
       },
       {
         "company": "The Plug Drink",
@@ -38,7 +38,7 @@
         "startDate": "Q4 2023",
         "endDate": "",
         "logo": "theplug.jpeg",
-        "link": ""
+        "link": "https://theplugdrink.com/"
       },
       {
         "company": "Claire's Place Foundation",
@@ -46,8 +46,7 @@
         "startDate": "Dec 2023",
         "endDate": "",
         "logo": "claires-logo.png",
-        "link": "https://clairesplacefoundation.org/",
-        "link": ""
+        "link": "https://clairesplacefoundation.org/"
       },
       {
         "company": "HyIQ",
@@ -55,7 +54,7 @@
         "startDate": "June 2021",
         "endDate": "Aug 2021",
         "logo": "hyiq.png",
-        "link": ""
+        "link": "https://www.hyiqbasketball.com/"
       }
     ]
   }
