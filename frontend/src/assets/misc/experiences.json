@@ -5,35 +5,40 @@
         "title": "Data Science Intern",
         "startDate": "July 2024",
         "endDate": "Present",
-        "logo": "canaria.jpeg"
+        "logo": "canaria.jpeg",
+        "link": "https://www.decanaria.com/"
       },
       {
         "company": "Sage AI",
         "title": "Co-Founder",
         "startDate": "Dec 2023",
         "endDate": "Present",
-        "logo": "sage-ai.png"
+        "logo": "sage-ai.png",
+        "link": "https://www.hellosage.app/"
       },
       {
         "company": "USC",
         "title": "AI Research",
         "startDate": "Dec 2023",
         "endDate": "May 2024",
-        "logo": "usc.jpeg"
+        "logo": "usc.jpeg",
+        "link": ""
       },
       {
         "company": "Hubtas",
         "title": "Tech Consultant",
         "startDate": "Q4 2023",
         "endDate": "",
-        "logo": "hubtas.jpeg"
+        "logo": "hubtas.jpeg",
+        "link": ""
       },
       {
         "company": "The Plug Drink",
         "title": "GTM Consultant",
         "startDate": "Q4 2023",
         "endDate": "",
-        "logo": "theplug.jpeg"
+        "logo": "theplug.jpeg",
+        "link": ""
       },
       {
         "company": "Claire's Place Foundation",
@@ -41,14 +46,16 @@
         "startDate": "Dec 2023",
         "endDate": "",
         "logo": "claires-logo.png",
-        "link": "https://clairesplacefoundation.org/"
+        "link": "https://clairesplacefoundation.org/",
+        "link": ""
       },
       {
         "company": "HyIQ",
         "title": "Apps Developer",
         "startDate": "June 2021",
         "endDate": "Aug 2021",
-        "logo": "hyiq.png"
+        "logo": "hyiq.png",
+        "link": ""
       }
     ]
   }
