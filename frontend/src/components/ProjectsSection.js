@@ -2,12 +2,14 @@ import React from 'react';
 import Azalea from '../assets/images/azalea.png';
 import Clevr from '../assets/images/clevr.png';
 import Trading from '../assets/images/trading.svg';
+import Citadel from '../assets/images/c1.png';
 
 const ProjectsSection = ({ projects }) => {
     const logos = {
         'azalea.png': Azalea,
         'clevr.png': Clevr,
         'trading.svg': Trading,
+        'c1.png': Citadel,
     };
 
     return (
@@ -21,9 +23,12 @@ const ProjectsSection = ({ projects }) => {
                                 <img 
                                     src={logos[proj.logo]} 
                                     alt={`${proj.name} logo`} 
-                                    className="w-8 h-8 sm:w-10 sm:h-10 object-contain rounded-full shadow-sm"
+                                    className="w-8 h-8 sm:w-10 sm:h-10 object-contain"
                                 />
-                                <h3 className="text-base sm:text-lg font-semibold ml-2 sm:ml-3 text-gray-800">{proj.name}</h3>
+                                <div className="">
+                                    <h3 className="text-base sm:text-lg font-semibold ml-2 sm:ml-3 text-gray-800">{proj.name}</h3>
+                                    <h3 className="text-xs sm:text-xs font-regular ml-2 sm:ml-3 text-gray-600">{proj.description}</h3>
+                                </div>
                             </div>
                             <div className="p-3 sm:p-4 flex items-center justify-center h-full">
                                 <div className="flex items-center justify-between w-full">

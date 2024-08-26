@@ -1,7 +1,17 @@
 {
     "projects": [
       {
+        "name": "Terminal",
+        "description": "US Summer Invitational 2024",
+        "isAwarded": true,
+        "award": "Top 30",
+        "awardColor" : "gray",
+        "logo": "c1.png",
+        "link": "https://github.com/dav1dbai/terminal_summer24"
+      },
+      {
         "name": "Azalea",
+        "description": "Sustainable LLM Routing",
         "isAwarded": true,
         "award": "1st Place",
         "awardColor" : "amber",
@@ -9,20 +19,13 @@
         "link": "https://devpost.com/software/azalea"
       },
       {
-        "name": "Clevr LMS",
+        "name": "Clevr",
+        "description": "Peer Tutoring LMS",
         "isAwarded": true,
         "award": "700+ users",
         "awardColor" : "blue",
         "logo": "clevr.png",
         "link": "https://github.com/Clevr-LMS"
-      },
-      {
-        "name": "LSTM Algo",
-        "isAwarded": true,
-        "award": "~70% Return",
-        "awardColor" : "gray",
-        "logo": "trading.svg",
-        "link": ""
       }
     ]
   }
