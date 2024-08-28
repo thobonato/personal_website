@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Description from "./components/Description";
 import WorkSection from "./components/WorkSection";
 import ProjectsSection from "./components/ProjectsSection";
+import Home from "./components/Home";
 import './App.css';
 
 function App() {
