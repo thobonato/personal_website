@@ -1,5 +1,5 @@
 import React from "react";
-import resumePDF from '../assets/docs/Bonato_Thomaz_Resume.pdf';
+import resumePDF from '../assets/docs/bonato_thomaz_resume.pdf';
 
 const Description = () => {
     return (
