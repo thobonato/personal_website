@@ -5,7 +5,6 @@ import Header from "./components/Header";
 import Description from "./components/Description";
 import WorkSection from "./components/WorkSection";
 import ProjectsSection from "./components/ProjectsSection";
-import Home from "./components/Home";
 import './App.css';
 
 function App() {
@@ -21,7 +20,7 @@ function App() {
       </div>
       <footer className="py-6 mt-auto">
         <div className="text-xs text-center">
-          © 2024 Thomaz Bonato. All rights reserved. Last updated: Aug 26, 2024.
+          © 2024 Thomaz Bonato. All rights reserved. Last updated: Aug 28, 2024.
         </div>
       </footer>
     </div>
