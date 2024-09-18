@@ -1,13 +1,24 @@
 {
     "projects": [
       {
+        "name": "PalmLabs",
+        "description": "Learn ASL with Gamified ML",
+        "isAwarded": true,
+        "award": "1st Place in Education",
+        "awardColor" : "amber",
+        "logo": "palmlabs.png",
+        "link": "https://github.com/VishnuK1947/PalmLabs",
+        "sponsor": "mit.png"
+      },
+      {
         "name": "Terminal",
         "description": "US Summer Invitational 2024",
         "isAwarded": true,
         "award": "Top 30",
         "awardColor" : "gray",
         "logo": "c1.png",
-        "link": "https://github.com/dav1dbai/terminal_summer24"
+        "link": "https://github.com/dav1dbai/terminal_summer24",
+        "sponsor": "citadel.png"
       },
       {
         "name": "Azalea",
@@ -16,7 +27,8 @@
         "award": "1st Place",
         "awardColor" : "amber",
         "logo": "azalea.png",
-        "link": "https://devpost.com/software/azalea"
+        "link": "https://devpost.com/software/azalea",
+        "sponsor": "launchology.png"
       },
       {
         "name": "Clevr",
@@ -25,7 +37,8 @@
         "award": "700+ users",
         "awardColor" : "blue",
         "logo": "clevr.png",
-        "link": "https://github.com/Clevr-LMS"
+        "link": "https://github.com/Clevr-LMS",
+        "sponsor": "unionville.png"
       }
     ]
   }
