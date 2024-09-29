@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0d80632a.css",
+    "main.js": "/static/js/main.53a8903e.js",
+    "static/js/453.bb828c5d.chunk.js": "/static/js/453.bb828c5d.chunk.js",
+    "static/media/theplug.jpeg": "/static/media/theplug.0b356687b90b8e248be0.jpeg",
+    "static/media/bonato_thomaz_resume.pdf": "/static/media/bonato_thomaz_resume.78040d0515a15c9f6db7.pdf",
+    "static/media/hyiq.png": "/static/media/hyiq.33db77aa60d5d5d6c6ca.png",
+    "static/media/clevr.png": "/static/media/clevr.71c749033143d0d9ced1.png",
+    "static/media/azalea.png": "/static/media/azalea.63ca989bb4cf2d3bc53d.png",
+    "static/media/sage-ai.png": "/static/media/sage-ai.ebb24d3adda62369c40e.png",
+    "static/media/claires-logo.png": "/static/media/claires-logo.ed80c5159e2dcc077550.png",
+    "static/media/c1.png": "/static/media/c1.6b2f01ad5b22524baa2e.png",
+    "static/media/trading.svg": "/static/media/trading.64b2c1270823f4b30f4369ff36bef2c8.svg",
+    "static/media/github.svg": "/static/media/github.a2dcecaacdba94077f71818776dd805b.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.48c578785988bce75017d928a5dc8a14.svg",
+    "index.html": "/index.html",
+    "static/media/devpost.svg": "/static/media/devpost.be1e0eb6906ecb0795ce9b01a8cf1bc4.svg",
+    "static/media/twitter.svg": "/static/media/twitter.59f61548d71b77b5144f030f0b705a72.svg",
+    "main.0d80632a.css.map": "/static/css/main.0d80632a.css.map",
+    "main.53a8903e.js.map": "/static/js/main.53a8903e.js.map",
+    "453.bb828c5d.chunk.js.map": "/static/js/453.bb828c5d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d80632a.css",
+    "static/js/main.53a8903e.js"
+  ]
+}
