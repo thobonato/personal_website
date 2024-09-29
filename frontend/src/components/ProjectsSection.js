@@ -8,6 +8,8 @@ import Mit from '../assets/images/mit.png';
 import Citadel from '../assets/images/citadel.png';
 import Unionville from '../assets/images/unionville.png';
 import Launchology from '../assets/images/launchology.png';
+import Cypress from '../assets/images/cypress.png';
+import Penn from '../assets/images/upenn.png';
 
 const ProjectsSection = ({ projects }) => {
     const logos = {
@@ -16,6 +18,7 @@ const ProjectsSection = ({ projects }) => {
         'trading.svg': Trading,
         'c1.png': COne,
         'palmlabs.png': PalmLabs,
+        'cypress.png' : Cypress,
     };
 
     const sponsors = {
@@ -23,14 +26,15 @@ const ProjectsSection = ({ projects }) => {
         'citadel.png': Citadel,
         'unionville.png': Unionville,
         'launchology.png': Launchology,
+        'upenn.png' : Penn,
     };
 
     return (
         <div className="max-w-5xl mx-auto pt-10 sm:pt-6 mb-24">
             <h2 className="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6">projects</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {projects.map((proj) => (
-                    <div key={proj.name} className="bg-white rounded-lg shadow-md overflow-hidden h-auto sm:h-40 flex flex-col transition duration-300 ease-in-out transform hover:scale-[1.03]">
+                    <div key={proj.name} className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col transition duration-300 ease-in-out transform hover:scale-[1.02]">
                         <a href={proj.link} target="_blank" rel="noopener noreferrer" className="flex-grow flex flex-col">
                             <div className="relative flex items-center p-3 sm:p-4 bg-gray-50 border-b shadow-sm">
                                 <img 
@@ -40,7 +44,7 @@ const ProjectsSection = ({ projects }) => {
                                 />
                                 <div className="flex-grow">
                                     <h3 className="text-base sm:text-lg font-semibold ml-2 sm:ml-3 text-gray-800">{proj.name}</h3>
-                                    <h3 className="text-xs sm:text-xs font-regular ml-2 sm:ml-3 text-gray-600">{proj.description}</h3>
+                                    <h3 className="text-[11px] font-regular ml-2 sm:ml-3 text-gray-600">{proj.description}</h3>
                                 </div>
                                 <img
                                     src={sponsors[proj.sponsor]} 
@@ -58,7 +62,7 @@ const ProjectsSection = ({ projects }) => {
                                         )}
                                     </div>
                                     {proj.link && (
-                                        <span className="text-xs sm:text-sm text-blue-600 hover:text-blue-500">
+                                        <span className="text-[10px] text-blue-600 hover:text-blue-500">
                                             View Project
                                         </span>
                                     )}

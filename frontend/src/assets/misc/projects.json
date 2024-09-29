@@ -2,13 +2,23 @@
     "projects": [
       {
         "name": "PalmLabs",
-        "description": "Learn ASL with Gamified ML",
+        "description": "Learn ASL with Gamified ML | HackMIT",
         "isAwarded": true,
-        "award": "1st Place in Education",
+        "award": "1st Place",
         "awardColor" : "amber",
         "logo": "palmlabs.png",
         "link": "https://github.com/VishnuK1947/PalmLabs",
         "sponsor": "mit.png"
+      },
+      {
+        "name": "CypressMFA",
+        "description": "Gesture-Driven Auth | PennApps",
+        "isAwarded": true,
+        "award": "2nd Place",
+        "awardColor" : "gray",
+        "logo": "cypress.png",
+        "link": "https://github.com/thobonato/cypress-penn-apps",
+        "sponsor": "upenn.png"
       },
       {
         "name": "Terminal",
@@ -27,7 +37,7 @@
         "award": "1st Place",
         "awardColor" : "amber",
         "logo": "azalea.png",
-        "link": "https://devpost.com/software/azalea",
+        "link": "https://azalea-ml.vercel.app/",
         "sponsor": "launchology.png"
       },
       {
