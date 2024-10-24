@@ -1,12 +1,12 @@
 {
     "experiences": [
       {
-        "company": "Sage AI",
-        "title": "Co-Founder",
+        "company": "USC",
+        "title": "AI Research",
         "startDate": "Dec 2023",
         "endDate": "Present",
-        "logo": "sage-ai.png",
-        "link": "https://www.hellosage.app/"
+        "logo": "usc.jpeg",
+        "link": "https://www.marshall.usc.edu/personnel/kimon-drakopoulos"
       },
       {
         "company": "Canaria",
@@ -17,12 +17,12 @@
         "link": "https://www.decanaria.com/"
       },
       {
-        "company": "USC",
-        "title": "AI Research",
+        "company": "Sage AI",
+        "title": "Co-Founder",
         "startDate": "Dec 2023",
-        "endDate": "May 2024",
-        "logo": "usc.jpeg",
-        "link": "https://www.marshall.usc.edu/personnel/kimon-drakopoulos"
+        "endDate": "October 2024",
+        "logo": "sage-ai.png",
+        "link": "https://www.hellosage.app/"
       },
       {
         "company": "Hubtas",
@@ -34,7 +34,7 @@
       },
       {
         "company": "The Plug Drink",
-        "title": "GTM Consultant",
+        "title": "GTM",
         "startDate": "Q4 2023",
         "endDate": "",
         "logo": "theplug.jpeg",

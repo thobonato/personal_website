@@ -29,6 +29,13 @@ const ProjectsSection = ({ projects }) => {
         'upenn.png' : Penn,
     };
 
+    const colors = {
+        "gold" : 'bg-amber-100 text-amber-800',
+        "gray" : 'bg-gray-100 text-gray-800',
+        "blue" : 'bg-blue-100 text-blue-800',
+
+    }
+
     return (
         <div className="max-w-5xl mx-auto pt-10 sm:pt-6 mb-24">
             <h2 className="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6">projects</h2>
@@ -56,7 +63,7 @@ const ProjectsSection = ({ projects }) => {
                                 <div className="flex items-center justify-between w-full">
                                     <div className="flex items-center">
                                         {proj.isAwarded && (
-                                            <span className={`text-xs font-medium bg-${proj.awardColor}-100 text-${proj.awardColor}-800 py-1 px-2 rounded-full mr-2`}>
+                                            <span className={`text-xs font-medium ${colors[proj.awardColor]} py-1 px-2 rounded-full mr-2`}>
                                                 {proj.award}
                                             </span>  
                                         )}

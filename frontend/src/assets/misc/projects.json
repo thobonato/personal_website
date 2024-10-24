@@ -5,7 +5,7 @@
         "description": "Learn ASL with Gamified ML | HackMIT",
         "isAwarded": true,
         "award": "1st Place",
-        "awardColor" : "amber",
+        "awardColor" : "gold",
         "logo": "palmlabs.png",
         "link": "https://github.com/VishnuK1947/PalmLabs",
         "sponsor": "mit.png"
@@ -32,10 +32,10 @@
       },
       {
         "name": "Azalea",
-        "description": "Sustainable LLM Routing",
+        "description": "LLM Energy Tracking",
         "isAwarded": true,
         "award": "1st Place",
-        "awardColor" : "amber",
+        "awardColor" : "gold",
         "logo": "azalea.png",
         "link": "https://azalea-ml.vercel.app/",
         "sponsor": "launchology.png"
