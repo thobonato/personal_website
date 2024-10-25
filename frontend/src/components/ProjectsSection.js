@@ -10,6 +10,7 @@ import Unionville from '../assets/images/unionville.png';
 import Launchology from '../assets/images/launchology.png';
 import Cypress from '../assets/images/cypress.png';
 import Penn from '../assets/images/upenn.png';
+import Mail from '../assets/images/mail.png';
 
 const ProjectsSection = ({ projects }) => {
     const logos = {
@@ -19,6 +20,7 @@ const ProjectsSection = ({ projects }) => {
         'c1.png': COne,
         'palmlabs.png': PalmLabs,
         'cypress.png' : Cypress,
+        'mail.png' : Mail,
     };
 
     const sponsors = {
@@ -53,11 +55,12 @@ const ProjectsSection = ({ projects }) => {
                                     <h3 className="text-base sm:text-lg font-semibold ml-2 sm:ml-3 text-gray-800">{proj.name}</h3>
                                     <h3 className="text-[11px] font-regular ml-2 sm:ml-3 text-gray-600">{proj.description}</h3>
                                 </div>
+                                {proj.sponsor &&
                                 <img
                                     src={sponsors[proj.sponsor]} 
                                     alt={`${proj.name} sponsor`} 
                                     className="absolute top-3 right-3 w-5 h-5 sm:w-6 sm:h-6 object-contain"
-                                />
+                                />}
                             </div>
                             <div className="p-3 sm:p-4 flex items-center justify-center h-full">
                                 <div className="flex items-center justify-between w-full">

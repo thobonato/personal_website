@@ -1,8 +1,18 @@
 {
     "projects": [
       {
+        "name": "Processor",
+        "description": "Effortless email threads",
+        "isAwarded": true,
+        "award": "Freelance",
+        "awardColor" : "blue",
+        "logo": "mail.png",
+        "link": "https://tryprocessor.vercel.app/",
+        "sponsor": ""
+      },
+      {
         "name": "PalmLabs",
-        "description": "Learn ASL with Gamified ML | HackMIT",
+        "description": "Gamified Sign Language | HackMIT",
         "isAwarded": true,
         "award": "1st Place",
         "awardColor" : "gold",
