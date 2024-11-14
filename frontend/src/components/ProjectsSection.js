@@ -11,6 +11,8 @@ import Launchology from '../assets/images/launchology.png';
 import Cypress from '../assets/images/cypress.png';
 import Penn from '../assets/images/upenn.png';
 import Mail from '../assets/images/mail.png';
+import HackSC from '../assets/images/hacksc.png';
+import Aspen from '../assets/images/aspen.png';
 
 const ProjectsSection = ({ projects }) => {
     const logos = {
@@ -21,6 +23,7 @@ const ProjectsSection = ({ projects }) => {
         'palmlabs.png': PalmLabs,
         'cypress.png' : Cypress,
         'mail.png' : Mail,
+        'aspen.png': Aspen,
     };
 
     const sponsors = {
@@ -29,6 +32,7 @@ const ProjectsSection = ({ projects }) => {
         'unionville.png': Unionville,
         'launchology.png': Launchology,
         'upenn.png' : Penn,
+        'hacksc.png': HackSC,
     };
 
     const colors = {
