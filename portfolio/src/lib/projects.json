@@ -1,0 +1,74 @@
+{
+    "projects": [
+      {
+        "name": "PalmLabs",
+        "description": "Gamified Sign Language | HackMIT",
+        "isAwarded": true,
+        "award": "1st Place",
+        "awardColor" : "gold",
+        "logo": "palmlabs.png",
+        "link": "https://github.com/VishnuK1947/PalmLabs",
+        "sponsor": "mit.png"
+      },
+      {
+        "name": "CypressMFA",
+        "description": "Gesture-Driven Auth | PennApps",
+        "isAwarded": true,
+        "award": "2nd Place",
+        "awardColor" : "gray",
+        "logo": "cypress.png",
+        "link": "https://github.com/thobonato/cypress-penn-apps",
+        "sponsor": "upenn.png"
+      },
+      {
+        "name": "Terminal",
+        "description": "US Summer Invitational 2024",
+        "isAwarded": true,
+        "award": "Top 30",
+        "awardColor" : "gray",
+        "logo": "c1.png",
+        "link": "https://github.com/dav1dbai/terminal_summer24",
+        "sponsor": "citadel.png"
+      },
+      {
+        "name": "Azalea",
+        "description": "LLM Energy Tracking",
+        "isAwarded": true,
+        "award": "1st Place",
+        "awardColor" : "gold",
+        "logo": "azalea.png",
+        "link": "https://azalea-ml.vercel.app/",
+        "sponsor": "launchology.png"
+      },
+      {
+        "name": "Aspen",
+        "description": "Adventure made easy | HackSC",
+        "isAwarded": true,
+        "award": "HM",
+        "awardColor" : "gray",
+        "logo": "aspen.png",
+        "link": "https://devpost.com/software/aspen-5n8eqx",
+        "sponsor": "hacksc.png"
+      },
+      {
+        "name": "Processor",
+        "description": "Effortless email threads",
+        "isAwarded": true,
+        "award": "Freelance",
+        "awardColor" : "blue",
+        "logo": "mail.png",
+        "link": "https://tryprocessor.vercel.app/",
+        "sponsor": ""
+      },
+      {
+        "name": "Clevr",
+        "description": "Peer Tutoring LMS",
+        "isAwarded": true,
+        "award": "700+ users",
+        "awardColor" : "blue",
+        "logo": "clevr.png",
+        "link": "https://github.com/Clevr-LMS",
+        "sponsor": "unionville.png"
+      }
+    ]
+  }

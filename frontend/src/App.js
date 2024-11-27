@@ -20,7 +20,7 @@ function App() {
       </div>
       <footer className="py-6 mt-auto">
         <div className="text-xs text-center">
-          © 2024 Thomaz Bonato. All rights reserved. Last updated: Nov 14, 2024.
+          © 2024 Thomaz Bonato. All rights reserved. Last updated: Nov 26, 2024.
         </div>
       </footer>
     </div>
