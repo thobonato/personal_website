@@ -1,0 +1,14 @@
+{
+    "archive" : [
+        {
+          "name": "Terminal",
+          "description": "US Summer Invitational 2024",
+          "isAwarded": true,
+          "award": "Top 30",
+          "awardColor" : "gray",
+          "logo": "c1.png",
+          "link": "https://github.com/dav1dbai/terminal_summer24",
+          "sponsor": "citadel.png"
+        }
+      ]
+}

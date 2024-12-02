@@ -9,10 +9,18 @@
         "link": "https://www.marshall.usc.edu/personnel/kimon-drakopoulos"
       },
       {
+        "company": "Curious Cardinals",
+        "title": "Student Mentor",
+        "startDate": "May 2023",
+        "endDate": "Present",
+        "logo": "cc.jpeg",
+        "link": "https://app.curiouscardinals.com/mentors/thomaz-bonato"
+      },
+      {
         "company": "Canaria",
         "title": "Data Science Intern",
         "startDate": "July 2024",
-        "endDate": "October 2024",
+        "endDate": "Oct 2024",
         "logo": "canaria.jpeg",
         "link": "https://www.decanaria.com/"
       },
@@ -20,7 +28,7 @@
         "company": "Sage AI",
         "title": "Co-Founder",
         "startDate": "Dec 2023",
-        "endDate": "October 2024",
+        "endDate": "Oct 2024",
         "logo": "sage-ai.png",
         "link": "https://www.hellosage.app/"
       },

@@ -8,6 +8,7 @@ import Hubtas from '../assets/images/hubtas.jpeg';
 import USC from '../assets/images/usc.jpeg'; 
 import ClairesPlace from '../assets/images/claires-logo.png'; 
 import Canaria from '../assets/images/canaria.jpeg'; 
+import CC from '../assets/images/cc.jpeg';
 
 const WorkSection = ({ experiences }) => {
     const logos = {
@@ -20,6 +21,7 @@ const WorkSection = ({ experiences }) => {
       'usc.jpeg': USC,
       'claires-logo.png': ClairesPlace,
       'canaria.jpeg': Canaria,
+      'cc.jpeg': CC,
     };
 
   return (
