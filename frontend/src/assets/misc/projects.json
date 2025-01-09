@@ -1,6 +1,16 @@
 {
     "projects": [
       {
+        "name": "ForgeUI",
+        "description": "Frontend 10x Faster with Groq",
+        "isAwarded": true,
+        "award": "Most Recent",
+        "awardColor" : "blue",
+        "logo": "forgeui.png",
+        "link": "https://useforgeui.vercel.app/",
+        "sponsor": "groq.png"
+      },
+      {
         "name": "PalmLabs",
         "description": "Gamified Sign Language | HackMIT",
         "isAwarded": true,

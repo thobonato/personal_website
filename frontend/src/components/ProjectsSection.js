@@ -13,6 +13,8 @@ import Penn from '../assets/images/upenn.png';
 import Mail from '../assets/images/mail.png';
 import HackSC from '../assets/images/hacksc.png';
 import Aspen from '../assets/images/aspen.png';
+import ForgeUI from '../assets/images/forgeui.png';
+import Groq from '../assets/images/groq.png';
 
 const ProjectsSection = ({ projects }) => {
     const logos = {
@@ -24,6 +26,7 @@ const ProjectsSection = ({ projects }) => {
         'cypress.png' : Cypress,
         'mail.png' : Mail,
         'aspen.png': Aspen,
+        'forgeui.png': ForgeUI,
     };
 
     const sponsors = {
@@ -33,6 +36,7 @@ const ProjectsSection = ({ projects }) => {
         'launchology.png': Launchology,
         'upenn.png' : Penn,
         'hacksc.png': HackSC,
+        'groq.png':Groq,
     };
 
     const colors = {
