@@ -1,0 +1,47 @@
+{
+    "experiences": [
+    {
+      "title": "builder @ Netic",
+      "period": "May 2025 - Present",
+      "isActive": true
+    },
+    {
+      "title": "Data Science Intern @ Trudy",
+      "period": "Feb 2025 - May 2025",
+      "isActive": false
+    },
+    {
+      "title": "AI Research @ USC",
+      "period": "Dec 2023 - May 2025",
+      "isActive": false
+    },
+    {
+      "title": "Data Science Intern @ Canaria",
+      "period": "July 2024 - Oct 2024",
+      "isActive": false
+    },
+    {
+      "title": "Co-Founder @ Sage AI",
+      "period": "Jan 2024 - Sep 2024",
+      "isActive": false
+    }
+  ],
+  "links": [
+    {
+      "name": "x",
+      "url": "https://x.com/thobonato"
+    },
+    {
+      "name": "in",
+      "url": "https://www.linkedin.com/in/thobonato/"
+    },
+    {
+      "name": "git",
+      "url": "https://github.com/thobonato"
+    },
+    {
+      "name": "mail",
+      "url": "mailto:bonato@usc.edu"
+    }
+  ]
+}
