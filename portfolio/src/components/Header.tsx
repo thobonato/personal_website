@@ -51,15 +51,15 @@ export function HeaderComponent() {
                 theme === 'light' ? 'hover:text-black' : 'hover:text-white'
               }`}
             >
-              /projects
+              /home
             </Link>
             <Link
-              href="/"
+              href="/projects"
               className={`text-sm transition-colors duration-500 ${
                 theme === 'light' ? 'hover:text-black' : 'hover:text-white'
               }`}
             >
-              /thoughts
+              /projects
             </Link>
           </nav>
         </div>

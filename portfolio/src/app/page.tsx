@@ -142,11 +142,15 @@ export default function Home() {
           {/* About Section */}
           <section>
             <div className="flex flex-col md:flex-row gap-6">
-              <div className="aspect-square text-gray-600 dark:text-gray-500">
-                <pre className="text-[0.25rem] leading-tight whitespace-pre font-mono overflow-hidden h-full w-full p-2 transition-all duration-500">
-                  {theme === 'light' ? ascii_art_light : ascii_art_dark}
-                </pre>
-                <div className="flex gap-10 mt-4 justify-center">
+              <div className="flex flex-col items-center w-full md:w-auto">
+                <div className="w-full flex justify-center">
+                  <div className="aspect-square w-full max-w-xs text-gray-600 dark:text-gray-500 flex-shrink-0 flex justify-center items-center">
+                    <pre className="text-[0.25rem] leading-tight whitespace-pre font-mono overflow-hidden h-full w-full p-2 transition-all duration-500 text-center mx-auto">
+                      {theme === 'light' ? ascii_art_light : ascii_art_dark}
+                    </pre>
+                  </div>
+                </div>
+                <div className="flex flex-wrap gap-6 mt-4 justify-center w-full">
                   {links.map((link) => (
                     <a 
                       key={link.name}
@@ -161,7 +165,7 @@ export default function Home() {
                   ))}
                 </div>
               </div>
-              <div className="space-y-3">
+              <div className="space-y-3 flex-1">
                 <h2 className={`text-md mb-3 transition-colors duration-500
                   ${theme === 'light' ? 'text-black' : 'text-white'}`}
                 >
